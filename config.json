@@ -1,0 +1,21 @@
+{
+    "root_dir": "/mnt/d/house_price_prediction",
+    "data": {
+        "raw": {
+            "csv": "/mnt/d/house_price_prediction/data/raw/County_zhvi_uc_sfr_tier_0.33_0.67_sm_sa_month.csv"
+        },
+        "processed": {
+            "excel": "/mnt/d/house_price_prediction/data/processed/County_zhvi_uc_sfr_processed.xlsx"
+        }
+    },
+    "models_dir": "/mnt/d/house_price_prediction/models/trained_models",
+    "scalers_dir": "/mnt/d/house_price_prediction/models/scalers",
+    "results": {
+        "logs": "/mnt/d/house_price_prediction/results/logs",
+        "evaluation_metrics": "/mnt/d/house_price_prediction/results/evaluation_metrics"
+    },
+    "metadata_dir": "/mnt/d/house_price_prediction/data/metadata",
+    "preprocessing_log": "preprocessing.log",
+    "training_log": "training.log",
+    "inference_log": "inference.log"
+}
