@@ -1,3 +1,73 @@
+📘 Description
+This project is an end-to-end House Price Prediction System using machine learning. It includes data preprocessing, model training, inference, and a graphical user interface (GUI) for user interaction. It is built in Python using TensorFlow, Scikit-learn, and Tkinter, and structured to work with time-series housing data at the county level.
+
+📊 Overview
+1. Data Preprocessing (preprocessing.py)
+Transforms raw county-level housing CSV data into a time-series format suitable for machine learning. It also generates metadata and logs all operations.
+
+2. Model Training (house_price_predicting_mlm_v6_FT.py)
+Trains deep learning regression models using TensorFlow/Keras for each county (target feature) using the rest as predictors. Includes:
+
+Feature and target scaling
+
+Model architecture definition
+
+Early stopping and learning rate reduction
+
+Model and metrics saving
+
+3. Inference (inference.py)
+A command-line interface to perform predictions for a selected county using the trained model. It automatically identifies top predictors and scales inputs accordingly.
+
+4. Graphical User Interface (hpp_gui.py)
+Provides a user-friendly Tkinter-based GUI for house price prediction, allowing selection of a county and input of relevant predictors. It dynamically updates input fields based on feature correlation.
+
+🌟 Key Features
+✅ General
+Modular architecture with centralized configuration via config_utils.
+
+Dynamic metadata and logging for traceability.
+
+Compatible with GPU acceleration (TensorFlow GPU support).
+
+📂 preprocessing.py
+Validates and sanitizes column names.
+
+Handles missing values using median imputation.
+
+Converts wide-form time series data into long-form format.
+
+Exports processed data to Excel and metadata to JSON.
+
+Logging of each preprocessing step for debugging and reproducibility.
+
+🧠 house_price_predicting_mlm_v6_FT.py
+Automatically detects and trains a model for each county.
+
+Uses a dense neural network with L2 regularization and dropout for generalization.
+
+Stores models, scalers, and evaluation metrics (RMSE, R²).
+
+Implements early stopping and adaptive learning rate scheduling.
+
+🖥️ hpp_gui.py
+Full-featured Tkinter GUI for non-technical users.
+
+Automatically shows the most relevant predictor features per selected county.
+
+Provides user input validation and error handling.
+
+Displays prediction results clearly with explanations.
+
+🛠️ inference.py
+CLI-based prediction interface for script-based usage.
+
+Auto-selects top 10 predictors based on correlation.
+
+Supports manual input with fallback to default values.
+
+Full logging of prediction steps for transparency.
+
 Setup Instructions
 
 Step 1: Install Dependencies
