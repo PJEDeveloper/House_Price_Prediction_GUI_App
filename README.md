@@ -1,4 +1,4 @@
-📘 Description
+📘 Description  
 This project is an end-to-end House Price Prediction System using machine learning. It includes data preprocessing, model training, inference, and a graphical user interface (GUI) for user interaction. It is built in Python using TensorFlow, Scikit-learn, and Tkinter, and structured to work with time-series housing data at the county level.
 
 📊 Overview
