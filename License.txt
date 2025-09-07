@@ -1,0 +1,10 @@
+## License
+
+This project’s code is licensed under the [Apache 2.0 License](LICENSE).
+
+### Data License and Terms of Use
+The housing data used in this project is provided by [Zillow Research](https://www.zillow.com/research/data/) and remains subject to Zillow’s [Terms of Use](https://www.zillow.com/corp/Terms.htm).  
+
+- You may use the data for research and educational purposes in accordance with Zillow’s guidelines.  
+- Zillow retains ownership of all data and trademarks.  
+- Any redistribution or publication of Zillow data must properly attribute Zillow as the source.  
