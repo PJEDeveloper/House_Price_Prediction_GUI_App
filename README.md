@@ -22,6 +22,16 @@ A command-line interface to perform predictions for a selected county using the 
 4. Graphical User Interface (hpp_gui.py)
 Provides a user-friendly Tkinter-based GUI for house price prediction, allowing selection of a county and input of relevant predictors. It dynamically updates input fields based on feature correlation.
 
+## Data Source
+
+This project uses housing market data provided by [Zillow Research](https://www.zillow.com/research/data/).  
+Specifically, it relies on metrics such as the **Zillow Home Value Index (ZHVI)**, **Zillow Home Value Forecast (ZHVF)**, and the **Zillow Observed Rent Index (ZORI)**.  
+
+Please note:
+- Zillow updates their datasets monthly (typically on the 16th).  
+- More information about ZHVI and proper use can be found in the [ZHVI User Guide](https://www.zillow.com/research/zhvi-user-guide/).  
+- Zillow occasionally changes CSV download paths.  
+
 🌟 Key Features
 ✅ General
 Modular architecture with centralized configuration via config_utils.
@@ -152,4 +162,5 @@ This project is open-source and available under the Apache 2.0 License.
 ________________________________________
 Acknowledgments
 Special thanks to contributor, Patrick Hill, and resources used in developing this project.
+
 
